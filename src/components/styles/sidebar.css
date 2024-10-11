@@ -1,0 +1,81 @@
+/* General styling for the sidebar */
+.sidebar {
+  width: 106px; /* Sidebar width */
+  height: 100vh; /* Full viewport height */
+  background-color: #f1edfd; /* Purple background */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align icons at the top */
+  align-items: center; /* Center icons horizontally */
+  padding-top: 20px;
+  position: fixed; /* Fix sidebar to the left side */
+  top: 0;
+  left: 0;
+  z-index: 100; /* Ensure it's on top of content */
+}
+
+/* Style for the icons */
+.icon {
+  color: #5e3eba;
+  font-size: 24px; /* Icon size */
+  margin-bottom: 40px; /* Space between icons */
+  cursor: pointer; /* Show pointer on hover */
+  transition: transform 0.3s ease, color 0.3s ease; /* Animation for hover effect */
+}
+
+/* Hover effect for icons */
+.icon:hover {
+  transform: scale(1.2); /* Slightly enlarge on hover */
+  color: #ffffffb3; /* Lighter white on hover */
+}
+
+.sidebar-icon-home {
+  width: 68px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eae4fc;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.sidebar-icon-others {
+  width: 68px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+  margin-top: 5px;
+}
+.sidebar-section2 {
+  position: absolute;
+  top: 75%;
+}
+.sidebar-section1 {
+  position: absolute;
+  top: 18%;
+}
+
+.sidebar-icon-others:hover {
+  background-color: white;
+}
+
+.sidebar-icons-others {
+  /* margin-top: 10px; */
+  transition: color 0.3s ease;
+}
+.sidebar-icons-others:hover {
+}
+
+.settings-icon {
+  color: #4d4959;
+  font-size: 30px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.sidebar-icon-others:hover .settings-icon {
+  opacity: 0.8; /* Optional opacity change */
+}

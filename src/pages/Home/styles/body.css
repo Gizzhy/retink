@@ -1,0 +1,33 @@
+.body {
+  padding: 15px;
+}
+.body p:nth-child(1) {
+  font-weight: 600;
+  font-size: 24px;
+  color: #4d4959;
+}
+
+.body p:nth-child(2) {
+  font-weight: 500;
+  font-size: 18px;
+  color: #4d4959;
+  /* margin-top: 90px; */
+}
+.body-main {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  background-color: #f4f3f6;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.card-social {
+  font-weight: 600;
+  font-size: 20px !important;
+  color: #4d4959;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

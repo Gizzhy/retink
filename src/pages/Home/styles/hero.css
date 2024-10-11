@@ -1,0 +1,89 @@
+.hero {
+  height: 290px;
+  border-radius: 20px;
+  border: 1px solid #eae4fc;
+  padding: 5px 15px 0 15px;
+  /* background-color: #d8cdf7; */
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 10px 10px 10px;
+}
+.hero-section1 p:nth-child(1) {
+  /* font-family: "Moranga"; */
+  color: #4d4959;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.hero-section1 p:nth-child(2) {
+  color: #4d4959;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.hero-section1 button {
+  color: #754de8;
+  font-weight: 600;
+  font-size: 16px;
+  width: 201px;
+  height: 48px;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid #754de8;
+  cursor: pointer;
+}
+.hero-section1 button:hover {
+  border: none;
+  color: white;
+  background: rgb(234, 0, 34);
+  background: linear-gradient(
+    90deg,
+    rgba(234, 0, 34, 1) 0%,
+    rgba(94, 62, 186, 1) 97%
+  );
+}
+
+.hero-section2 div {
+  height: 86px;
+  border-radius: 10px;
+  width: 637px;
+  border: 1px solid white;
+  color: #4d4959;
+  font-size: 16px;
+  font-weight: 500;
+  /* background: rgba(255, 255, 255, 0.4);  */
+  backdrop-filter: blur(20px);
+  padding: 5px 0 0 10px;
+  margin-top: 10px;
+}
+.hero-section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+select {
+  margin-left: 390px;
+  width: 149px;
+  height: 48px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #f8f6ff;
+  font-size: 14px;
+  color: #1d1437;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("../../../assets/icons/dropdown.svg");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+select:focus {
+  /* border-color: #007bff; */
+  outline: none;
+}
