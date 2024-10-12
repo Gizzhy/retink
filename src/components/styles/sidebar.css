@@ -1,32 +1,24 @@
 /* General styling for the sidebar */
 .sidebar {
-  width: 106px; /* Sidebar width */
-  height: 100vh; /* Full viewport height */
-  background-color: #f1edfd; /* Purple background */
+  width: 106px;
+  height: 100vh;
+  background-color: #f1edfd;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Align icons at the top */
-  align-items: center; /* Center icons horizontally */
+  justify-content: flex-start;
+  align-items: center;
   padding-top: 20px;
-  position: fixed; /* Fix sidebar to the left side */
+  position: fixed;
   top: 0;
   left: 0;
-  z-index: 100; /* Ensure it's on top of content */
+  z-index: 100;
 }
 
-/* Style for the icons */
 .icon {
   color: #5e3eba;
-  font-size: 24px; /* Icon size */
-  margin-bottom: 40px; /* Space between icons */
-  cursor: pointer; /* Show pointer on hover */
-  transition: transform 0.3s ease, color 0.3s ease; /* Animation for hover effect */
-}
-
-/* Hover effect for icons */
-.icon:hover {
-  transform: scale(1.2); /* Slightly enlarge on hover */
-  color: #ffffffb3; /* Lighter white on hover */
+  font-size: 24px;
+  margin-bottom: 40px;
+  cursor: pointer;
 }
 
 .sidebar-icon-home {
@@ -80,7 +72,7 @@
   opacity: 0.8; /* Optional opacity change */
 }
 
-@media (max-width: 480px) {
+@media (max-width: 540px) {
   .sidebar {
     display: none;
   }

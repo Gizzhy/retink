@@ -22,17 +22,19 @@
 }
 
 .card-social {
-  font-weight: 600;
+  font-weight: 600 !important;
   font-size: 20px !important;
   color: #4d4959;
 }
 .card-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  /* padding: 10px; */
+  overflow-x: scroll;
   margin-top: 20px;
 }
-@media (min-width: 481px) {
-  .card-social {
+@media (min-width: 541px) {
+  .card-social2 {
     display: none;
   }
   .article {
@@ -40,7 +42,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 540px) {
   .body p:nth-child(1) {
     font-weight: 600;
     font-size: 18px;

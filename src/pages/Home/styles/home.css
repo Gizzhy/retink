@@ -2,7 +2,7 @@
   margin-left: 106px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 540px) {
   .main-page {
     margin-left: 0;
   }

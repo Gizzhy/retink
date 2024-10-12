@@ -91,8 +91,53 @@ input {
   background-color: #4f32a4;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 540px) {
   .navbar {
     display: none;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 850px) {
+  input {
+    width: 200px;
+    height: 45px;
+  }
+  ::placeholder {
+    font-size: 9px;
+  }
+  .create-btn {
+    height: 31px;
+    width: 110px;
+    font-size: 12px;
+    border-radius: 12px;
+  }
+  .input-icon2,
+  .input-icon3 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 851px) and (max-width: 1024px) {
+  input {
+    width: 330px;
+    height: 45px;
+  }
+  .input-icon1 {
+    left: 5%;
+  }
+  .input-icon2,
+  .input-icon3 {
+    display: none;
+  }
+  .create-btn {
+    height: 35px;
+    width: 140px;
+    font-size: 14px;
+    border-radius: 12px;
+  }
+}
+@media screen and (min-width: 980px) and (max-width: 1024px) {
+  .input-icon1 {
+    left: 7%;
   }
 }
