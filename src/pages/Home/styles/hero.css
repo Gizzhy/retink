@@ -3,10 +3,13 @@
   border-radius: 20px;
   border: 1px solid #eae4fc;
   padding: 5px 15px 0 15px;
-  /* background-color: #d8cdf7; */
   display: flex;
   justify-content: space-between;
   margin: 35px 10px 10px 10px;
+  background-image: url("../../../assets/images/herobg.svg");
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image in the div */
+  background-repeat: no-repeat;
 }
 .hero-section1 p:nth-child(1) {
   /* font-family: "Moranga"; */
@@ -86,4 +89,65 @@ select {
 select:focus {
   /* border-color: #007bff; */
   outline: none;
+}
+@media (min-width: 481px) {
+  .hero-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    display: none;
+  }
+  .hero-mobile {
+    height: 242px;
+    padding: 15px;
+    background-image: url("../../../assets/images/mobilehero.svg");
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image in the div */
+    background-repeat: no-repeat;
+  }
+  .mobile-search {
+    width: 332px;
+    height: 48px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  ::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    color: #463d61;
+    padding: 0 50px;
+  }
+  .input-icon4 {
+    position: absolute;
+    left: 15%;
+  }
+
+  .mobile-search-a {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+  }
+  .hero-mobile-2 p:nth-child(1) {
+    font-weight: 900;
+    font-size: 32px;
+  }
+  .hero-mobile-2 p:nth-child(2) {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .hero-nobile-1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  select {
+    margin-left: 0;
+    width: 146px;
+    height: 38px;
+    border-radius: 6px;
+    font-weight: 400;
+  }
 }

@@ -79,3 +79,9 @@
 .sidebar-icon-others:hover .settings-icon {
   opacity: 0.8; /* Optional opacity change */
 }
+
+@media (max-width: 480px) {
+  .sidebar {
+    display: none;
+  }
+}

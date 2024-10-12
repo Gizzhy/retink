@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/body.css";
 import Card from "./Card";
 import cardData from "../utils/cardData";
+import cross from "../../../assets/icons/cross.svg";
 
 const Body = () => {
   return (
@@ -10,6 +11,7 @@ const Body = () => {
       <p>Explore the trending tools to create your copies fast</p>
       <div className="body-main">
         <p className="card-social">Social media</p>
+        <p className="card-social2">Blog Writing</p>
         <div className="card-container">
           {cardData.map((card, index) => (
             <Card
@@ -22,6 +24,7 @@ const Body = () => {
           ))}
         </div>
         <p className="card-social">Social media</p>
+        <p className="card-social2">Social media</p>
         <div className="card-container">
           {cardData.map((card, index) => (
             <Card
@@ -32,6 +35,10 @@ const Body = () => {
               body={card.body}
             />
           ))}
+        </div>
+        <div className="article">
+          <p>Article Writing</p>
+          <img src={cross} alt="cross" className="cross-icon" />
         </div>
       </div>
     </div>

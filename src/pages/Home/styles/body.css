@@ -31,3 +31,55 @@
   justify-content: space-between;
   margin-top: 20px;
 }
+@media (min-width: 481px) {
+  .card-social {
+    display: none;
+  }
+  .article {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .body p:nth-child(1) {
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .body p:nth-child(2) {
+    font-weight: 500;
+    font-size: 14px;
+    color: #9893a3;
+    /* margin-top: 90px; */
+  }
+  .body-main {
+    background-color: white;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .card-social {
+    display: none;
+  }
+
+  .card-social2 {
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #4d4959 !important;
+  }
+  .card-container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    overflow-x: scroll;
+  }
+  .article {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .article p {
+    font-weight: 600;
+    font-size: 14px;
+    color: #4d4959;
+  }
+}

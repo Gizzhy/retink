@@ -90,3 +90,9 @@ input {
 .create-btn:hover {
   background-color: #4f32a4;
 }
+
+@media (max-width: 480px) {
+  .navbar {
+    display: none;
+  }
+}

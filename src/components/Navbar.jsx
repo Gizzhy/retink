@@ -12,7 +12,11 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-1">
-        <input type="text" placeholder="Search for templates, projects, etc" />
+        <input
+          type="text"
+          placeholder="Search for templates, projects, etc"
+          name="form"
+        />
         <img src={search} alt="coin" className="input-icon1" />
         <img src={filter} alt="coin" className="input-icon2" />
         <img src={cancel} alt="coin" className="input-icon3" />
